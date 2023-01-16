@@ -6,7 +6,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #D3D3D3;
+    background-color: rgba(211,211,211,0.6);
 }
 
 .calculator-container {
@@ -61,15 +61,15 @@ body {
     border-top: none;
 }
 
-.two-columns {
+.calculator-container > button.two-columns {
     grid-column: 2 span;
 }
 
-.zero {
+.calculator-container > button.zero {
     border-bottom-left-radius: 12px;
 }
 
-.equals {
+.calculator-container > button.equals {
     border-bottom-right-radius: 12px;
 }
 
