@@ -28,7 +28,7 @@ body {
     cursor: pointer;
 }
 
-.calculator-container > button.number:hover {
+.calculator-container > button.number:hover, button.sign_change:hover {
     background-color: rgba(49,49,49,0.75);
 }
 
