@@ -95,3 +95,9 @@ body {
     font-size: 2.5rem;
     color: rgba(255,255,255,1);
 }
+
+@media screen and (max-width: 600px) {
+    .calculator-container > button.delete-tools {
+        font-size: 1.5rem;
+    }
+}
