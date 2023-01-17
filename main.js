@@ -67,7 +67,7 @@ class Calculator {
         let previous = parseFloat(this.previous_expression);
         let current = parseFloat(this.current_expression)
         let result;
-        if (this.operation === null){return;}
+        if (this.operation === null || this.current_expression == ''){return;}
         switch(this.operation){
             case '÷':
                 if (current == 0){
